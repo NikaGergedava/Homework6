@@ -1,0 +1,57 @@
+.flex_container {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.navul {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.news {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #27187f;
+}
+.services {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #758bfd;
+}
+.whoweare {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #758bfd;
+}
+
+.searchbutton {
+  border: 3px solid #27187f;
+  border-radius: 10px;
+  width: 221px;
+  height: 55px;
+  align-items: flex-end;
+}
+.searchicon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 200%;
+  align-items: center;
+  color: #758bfd;
+}
