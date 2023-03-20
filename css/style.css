@@ -63,6 +63,7 @@ section {
   width: 90%;
   background-color: #ddeaf8;
   margin: 0 auto;
+  margin-bottom: 135px;
   /* border: 5px solid green; */
 }
 .sectiongroup {
@@ -106,4 +107,58 @@ section {
   line-height: 23px;
   color: #133b3a;
   margin-top: 33px;
+}
+/* footer */
+footer {
+  background-color: #758bfd;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0 auto;
+  width: 1440px;
+  height: 504px;
+  border: 3px solid red;
+}
+.contacttext {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+}
+.footericons {
+  width: 11px;
+  height: 22px;
+}
+.footertitle {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  
+
+  /* identical to box height */
+
+  /* display: flex;
+  align-items: center; */
+}
+.footerlist {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 150px;
+  /* identical to box height */
+
+  display: flex;
+  /* align-items: center; */
+}
+.creditcards{
+  /* display: inline-flex; */
+
 }
